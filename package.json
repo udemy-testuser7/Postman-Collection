@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "newman run testCollection.json -e Dev.postman_environment.json --reporter-junit-export report.xml"
+    "test": "newman run testCollection.json -e Dev.postman_environment.json --reporters junit --reporter-junit-export report.xml"
   },
   "author": "",
   "license": "ISC",
